@@ -1,0 +1,1 @@
+# magma-artifactory-helm-promote
