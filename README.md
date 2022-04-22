@@ -1,5 +1,8 @@
 # magma-artifactory-helm-promote
 
+https://artifactory.magmacore.org/artifactory/helm/ \
+https://artifactory.magmacore.org/artifactory/helmtest/
+
 Clone magma repo:
 ```bash
 git clone https://github.com/magma/magma.git
