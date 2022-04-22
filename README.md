@@ -15,8 +15,8 @@ cd magma/orc8r/tools/helm/
 
 Set username and token:
 ```bash
-export HELM_CHART_MUSEUM_USERNAME=xxxx
 export HELM_CHART_MUSEUM_TOKEN=xxxx
+export HELM_CHART_MUSEUM_USERNAME=xxxx
 ```
 
 Publish helm charts:
