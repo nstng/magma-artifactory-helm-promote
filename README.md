@@ -1,5 +1,7 @@
 # magma-artifactory-helm-promote
 
+Please download the `.tgz` versions as per your need.
+
 https://artifactory.magmacore.org/artifactory/helm/ \
 https://artifactory.magmacore.org/artifactory/helmtest/
 
