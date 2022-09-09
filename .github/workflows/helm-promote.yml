@@ -12,7 +12,7 @@ jobs:
     steps:
       - run: |
           wget https://github.com/magma/magma/raw/master/orc8r/tools/helm/promote.sh
-        
+          chmod 755 promote.sh
           # Promote Helm charts
           ./promote.sh orc8r-${MAGMA_VERSION}.tgz
           ./promote.sh cwf-orc8r-${MAGMA_VERSION}.tgz
