@@ -23,11 +23,12 @@ export HELM_CHART_MUSEUM_USERNAME=xxxx
 
 Publish helm charts:
 ```bash
-./promote.sh orc8r-1.5.28.tgz
-./promote.sh cwf-orc8r-0.2.2.tgz
-./promote.sh fbinternal-orc8r-0.2.2.tgz
-./promote.sh feg-orc8r-0.2.5.tgz
-./promote.sh lte-orc8r-0.2.6.tgz
-./promote.sh domain-proxy-0.1.0.tgz
+MAGMA_VERSION=1.8.0
+./promote.sh orc8r-${MAGMA_VERSION}.tgz
+./promote.sh cwf-orc8r-${MAGMA_VERSION}.tgz
+./promote.sh fbinternal-orc8r-${MAGMA_VERSION}.tgz
+./promote.sh feg-orc8r-${MAGMA_VERSION}.tgz
+./promote.sh lte-orc8r-${MAGMA_VERSION}.tgz
+./promote.sh domain-proxy-${MAGMA_VERSION}.tgz
 ```
 
